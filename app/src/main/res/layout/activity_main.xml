@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Quiz"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Where is the international court of justic headquartered ?"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:background="#ffe4c4"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"/>
+
+    <RadioButton
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geneva,Switzerland"
+        android:textStyle="bold|italic"
+        android:textSize="27dp"
+        android:onClick="onRadioButtonClicked"
+        android:textColor="#ffe4c4"
+        android:layout_marginTop="150dp"
+        />
+
+    <RadioButton android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Hague, Netherland"
+        android:textStyle="bold|italic"
+        android:textSize="27dp"
+        android:onClick="onRadioButtonClicked"
+        android:textColor="#ffe4c4"
+        android:layout_marginTop="190dp"
+        />
+
+    <RadioButton android:id="@+id/radio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vienna, Austria"
+        android:textStyle="bold|italic"
+        android:textSize="27dp"
+        android:onClick="onRadioButtonClicked"
+        android:textColor="#ffe4c4"
+        android:layout_marginTop="230dp"
+        />
+
+    <RadioButton android:id="@+id/radio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paris, France"
+        android:textStyle="bold|italic"
+        android:textSize="27dp"
+        android:onClick="onRadioButtonClicked"
+        android:textColor="#ffe4c4"
+        android:layout_marginTop="270dp"
+        />
+
+    <Button
+        android:id="@+id/answer_check"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        />
+
+</RelativeLayout>zds
